@@ -210,8 +210,6 @@ gl_FragColor=vec4(color,circ.r * vDistance);</code></pre>
 }</code></pre>
 
 
-Check out the [Live Preview]([https://ipmvbyshanmukh.vercel.app])
-
 # Installation
 
 Install dependencies:
