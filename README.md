@@ -212,5 +212,5 @@ gl_FragColor=vec4(color,circ.r * vDistance);</code></pre>
 }</code></pre>
 
 
+Check out the [Live Preview]([https://codesandbox.io/embed/74vjz2?view=preview&hidenavigation=1](https://ipmv.vercel.app/)) 
 
-<p><a href="[https://tympanus.net/Tutorials/ParticlesMusicVisualizer/](https://ipmv.vercel.app/)" target="_blank" rel="noreferrer noopener">Check the demo.</a></p>
