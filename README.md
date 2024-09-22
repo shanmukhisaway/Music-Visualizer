@@ -1,5 +1,4 @@
-
-<h2 class="wp-block-heading">Getting Started</h2>
+# Getting Started
 
 
 
@@ -25,7 +24,7 @@
 
 
 
-<h2 class="wp-block-heading"><strong>Analyzing Audio Data</strong></h2>
+# Analyzing Audio Data
 
 
 
@@ -57,7 +56,7 @@ audioLoader.load(this.song.url, buffer =&gt; {
 
 
 
-<h3 class="wp-block-heading">Frequency Data</h3>
+# Frequency Data
 
 
 
@@ -78,12 +77,11 @@ this.frequencyArray = this.audioAnalyser.getFrequencyData();
 const lowFreqRangeStart = Math.floor((this.lowFrequency * this.bufferLength) / this.audioContext.sampleRate)
 const lowFreqRangeEnd = Math.floor((this.midFrequency * this.bufferLength) / this.audioContext.sampleRate)
 const lowAvg = this.normalizeValue(this.calculateAverage(this.frequencyArray, lowFreqRangeStart, lowFreqRangeEnd));
-
-//THE SAME FOR MID AND HIGH</code></pre>
-
+</code></pre>
 
 
-<h3 class="wp-block-heading">Detecting Tempo</h3>
+
+# Detecting Tempo
 
 
 
@@ -95,7 +93,7 @@ const lowAvg = this.normalizeValue(this.calculateAverage(this.frequencyArray, lo
 
 
 
-<h3 class="wp-block-heading">Dispatching the Signals</h3>
+# Dispatching the Signals
 
 
 
@@ -110,7 +108,7 @@ this.intervalId = setInterval(() =&gt; {
 
 
 
-<h2 class="wp-block-heading">Procedural Reactive Particles (The fun part 😎)</h2>
+# Procedural Reactive Particles (The fun part 😎)
 
 
 
@@ -139,7 +137,7 @@ const pointsMesh = new THREE.Points(geometry, material)</code></pre>
 <p>Now, we can begin creating our meshes with random attributes in a specified interval:</p>
 
 
-<h3 class="wp-block-heading">Animating the particles</h3>
+# Animating the particles
 
 
 
@@ -175,7 +173,7 @@ newpos = mix(position, target, pow(d, 4.));</code></pre>
 
 
 
-<h2 class="wp-block-heading">Adding Colors</h2>
+# Adding Colors
 
 
 
@@ -213,4 +211,24 @@ gl_FragColor=vec4(color,circ.r * vDistance);</code></pre>
 
 
 Check out the [Live Preview](https://ipmv.vercel.app/) 
+
+# Installation
+
+Install dependencies:
+
+```
+npm install
+```
+
+Compile the code for development and start a local server:
+
+```
+npm run dev
+```
+
+Create the build:
+
+```
+npm run build
+```
 
